@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Furry Eu's Shop</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Language" content="en">
+	<meta name="description" content="Furry Eu's Shop is a personal website for selling stuffs" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" sizes="60x60" href="images/icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="shop">
+		<header>
+			<img id="logo" src="images/logo.png" height="100px;" width="auto;" alt="logo" style="margin-left: 1%;">
+			
+			<div class="topnav" id="myTopnav" style="margin-right: 10px;">
+			<a href="index.html"><b>Home</b></a>
+			<a href="about.html"><b>About</b></a>
+			<a href="" style="background-color: red;"><b>Shop</b></a>
+			<a href="service.html"><b>Services</b></a>
+			<a href="contact.html"><b>Contact</b></a>
+			<a href="javascript:void(0);" style="font-size:15px;"" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</header>
+
+		<div class="shopsale">
+		<h1 style="	text-shadow: 2px 2px orange;">
+			TF2 Shop
+		<h3 style="	text-shadow: 2px 2px orange;">
+			Promotion:
+			<br>
+			bundles
+		</h3>
+		<div class="card_box" style="overflow-y:auto; overflow-x:auto;">
+			<table style="width: 50%; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 10px; background-color: rgba(255,255,255,0.2);  border-color: #f57c36; border-radius: 50px; text-align: center;">
+				<tr>
+					<td>
+						<div class="card">
+							<div class="front_card"><h1><img src="images/shop/elite.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							</div>
+							<div class="back_card"><span style="background-color: #4CAF50; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">USD 139.00
+								</span>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div class="card">
+							<div class="front_card"><h1><img src="images/shop/na.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							</div>
+							<div class="back_card"><span style="background-color: #f57c36; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">N/A
+								</span>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div class="card">
+							<div class="front_card"><h1><img src="images/shop/na.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							</div>
+							<div class="back_card"><span style="background-color: #f57c36; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">N/A
+								</span>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4 style="color: #EB4B4B; text-shadow: 0;">Elite Bundle</h4>
+					</td>
+					<td>
+						<h4 style="color: #4B69FF;">Mercenary Bundle</h4>
+					</td>
+					<td>
+						<h4 style="color: #B0C3D9">Civilian Bundle</h4>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span><img src="images/shop/elitedesc.png" width="200px;" height="auto;"></span><br><br>
+					</td>
+					<td>
+						<span></span>
+					</td>
+					<td>
+						<span></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="font-size: 14pt; text-shadow: 0 0;"><b>Different payment methods may accepted as well<br>such as <span style="color: #FFD700;">Keys</span>, <span style="color:#cf5e23;">Australiums</span> or <span style="color:#8650AC;">Unusuals</span><br>&nbsp;<br>If you are interested, you can contact me,<br>and i will lower the price and pay seperetly on Marketplace.tf<br>We also accept Paypal, MoneyGram<br><br>Visit me on</br><a id="mplink" href="https://marketplace.tf/shop/euxinhong0012" target="_blank" style="text-align: center; margin-left: 40%; border-radius: 15px;">MarketplaceTF</a><br>&nbsp;<br></b></td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		<br>
+		<canvas></canvas>
+
+		<footer>
+			&copy;Copyright FurryEu 2018<br>
+		</footer>
+
+	<script>
+	function myFunction()
+	{
+		var x = document.getElementById("myTopnav");
+		if(x.className === "topnav")
+		{
+			x.className += " responsive";
+		}
+		else
+		{
+			x.className = "topnav";
+		}
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Furry Eu's Shop</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Language" content="en">
+	<meta name="description" content="Furry Eu's Shop is a personal website for selling stuffs" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" sizes="60x60" href="images/icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="background">
+		<header>
+			<img id="logo" src="images/logo.png" height="100px;" width="auto;" alt="logo" style="margin-left: 1%;">
+			
+			<div class="topnav" id="myTopnav" style="margin-right: 10px;">
+			<a href="" style="background-color: red;"><b>Home</b></a>
+			<a href="about.html"><b>About</b></a>
+			<a href="shop.html"><b>Shop</b></a>
+			<a href="service.html"><b>Services</b></a>
+			<a href="contact.html"><b>Contact</b></a>
+			<a href="javascript:void(0);" style="font-size:15px;"" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</header>
+
+		<canvas></canvas>
+		<div class="welcome_message">
+		<h1>
+			Welcome to Furry Eu's Shop
+		<h3>
+			the site with fancy promo deals n stuff
+		</h3>
+		</div>
+
+		<footer>
+			&copy;Copyright FurryEu 2018<br>
+		</footer>
+
+	<script>
+	function myFunction()
+	{
+		var x = document.getElementById("myTopnav");
+		if(x.className === "topnav")
+		{
+			x.className += " responsive";
+		}
+		else
+		{
+			x.className = "topnav";
+		}
+	}
+	</script>
+</body>
+</html>
