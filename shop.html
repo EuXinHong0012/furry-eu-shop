@@ -48,9 +48,66 @@
 			margin-left: auto;
 			margin-right: auto;
 		       }
+
+		#button{
+			background-color: #4CAF50;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 15px;
+		}
+
+		#button:hover{
+			background-color: lightblue;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 15px;
+		}
+
+		#buttonnow{
+			background-color: #FF0000;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 15px;
+		}
+
+		#buttonnow:hover{
+			background-color: #4CAF50;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 15px;
+		}
+
 		footer{
 			position: relative;
-		       }
+		}
 	</style>
 </head>
 
@@ -73,8 +130,8 @@
 			TF2 Shop
 		<h3 style="	text-shadow: 2px 2px orange;">
 			Promotion:
-			<br>
-			bundles
+			<br><br><br><br>
+			TF2 item bundles
 		</h3>
 		<div class="card_box" style="overflow-y:auto; overflow-x:auto;">
 			<table style="width: 50%; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 10px; background-color: rgba(255,255,255,0.2);  border-color: #f57c36; border-radius: 50px; text-align: center;">
@@ -83,25 +140,25 @@
 						<div class="card">
 							<div class="front_card"><h1><img src="images/shop/elite.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
 							</div>
-							<div class="back_card"><span style="background-color: #4CAF50; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">USD 150.00
+							<div class="back_card"><span><img src="images/shop/eliteprice.png" width="200px;" height="200px;" style="border-radius: 10px; ">
 								</span>
 							</div>
 						</div>
 					</td>
 					<td>
 						<div class="card">
-							<div class="front_card"><h1><img src="images/shop/na.PNG" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							<div class="front_card"><h1><img src="images/shop/forrent.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
 							</div>
-							<div class="back_card"><span style="background-color: #f57c36; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">N/A
+							<div class="back_card"><span><img src="images/shop/comingsoon.png" width="200px;" height="200px;" style="border-radius: 10px; ">
 								</span>
 							</div>
 						</div>
 					</td>
 					<td>
 						<div class="card">
-							<div class="front_card"><h1><img src="images/shop/na.PNG" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							<div class="front_card"><h1><img src="images/shop/forrent.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
 							</div>
-							<div class="back_card"><span style="background-color: #f57c36; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">N/A
+							<div class="back_card"><span><img src="images/shop/comingsoon.png" width="200px;" height="200px;" style="border-radius: 10px; ">
 								</span>
 							</div>
 						</div>
@@ -120,7 +177,7 @@
 				</tr>
 				<tr>
 					<td>
-						<span><img src="../images/shop/elitedesc.PNG" width="200px;" height="auto;"></span><br><br>
+						<span><img src="images/shop/elitedesc.png" width="200px;" height="auto;"></span><br><br>
 					</td>
 					<td>
 						<span></span>
@@ -130,26 +187,43 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3" style="font-size: 14pt; text-shadow: 0 0;"><b>Different currencies are accepted as well<br>such as <span style="color: #FFD700;">Keys</span>, <span style="color:#cf5e23;">Australiums</span> or <span style="color:#8650AC;">Unusuals</span>!<br>&nbsp;<br>If you are interested, you can contact us,<br>and we will set the price and pay seperetly on Marketplace.tf<br>We also accept different payment methods<br>such as Paypal or MoneyGram.<br><br>Visit us on</br><a id="mplink" href="https://marketplace.tf/shop/euxinhong0012" target="_blank" style="text-align: center; margin-left: 40%; border-radius: 15px;">MarketplaceTF</a><br>&nbsp;<br></b></td>
+					<td><input type="button" value="Contact Seller" id="button" onclick="window.open('https://marketplace.tf/shop/euxinhong0012')"/><br></td>
+					<td><input type="button" value="Contact Private Seller" id="button" onclick="window.open('https://marketplace.tf/shop/euxinhong0012')"/><br></td>
+					<td><input type="button" value="Contact Private Seller" id="button" onclick="window.open('https://marketplace.tf/shop/euxinhong0012')"/><br></td>
 				</tr>
-			</table>
+				<tr>
+					<td colspan="3"><hr></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<b style="font-size: 14pt;">Different currencies are accepted as well<br>such as <span style="color: #FFD700;">Keys</span>, <span style="color:#cf5e23;">Australiums</span> or <span style="color:#8650AC;">Unusuals</span>!<br>&nbsp;<br>If you are interested, you can contact us,<br>and we will set the price and pay seperetly on Marketplace.tf<br>We also accept different payment methods<br>such as Paypal or MoneyGram.<br><br>Visit us on</br><a id="mplink" href="https://marketplace.tf/shop/euxinhong0012" target="_blank" style="text-align: center; margin-left: 40%; border-radius: 15px;">MarketplaceTF</a><br>&nbsp;<br></b></td><br>
+					</td>
+				</tr>
+			</table><br>
+
 		</div>
-		<canvas></canvas>
+		<br>
+		<br><br>
 		<div id=offer>
+			<canvas></canvas>
 			<h4 id="h4">LIMITED TIME OFFER!</h4>
 			<div id="timer">
 				<p id="demo"></p>
 			</div>
-			<div id="offerad" class="card">
-			 	<div class="front_card"><h1><img src="images/shop/na.PNG" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+				<div class="card" style="margin-left: auto; margin-right: auto;">
+							<div class="front_card"><h1><img src="images/shop/limitedsalepic.png" width="200px;" height="200px;" style="border-radius: 10px; margin-top: -40px;"></h1>
+							</div>
+							<div class="back_card"><span><img src="images/shop/limitedsaleprice.png" width="200px;" height="200px;" style="border-radius: 10px; ">
+								</span>
+							</div>
 				</div>
-				<div class="back_card"><span style="background-color: #f57c36; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 26px; margin-top: -40px; border-radius: 10px; margin: 0; padding: 0; margin-top: -40px; width: 100%;">N/A
-				</span>
-				</div>
-			</div>
+				<br>
+				<img src="images/shop/limitedsaledesc.png" width="200px;" height="auto;" style="border-radius: 10px; margin-left: auto; margin-right: auto;">
+				<br>
+				<td><input type="button" value="Contact Seller Now!" id="buttonnow" onclick="window.open('https://marketplace.tf/shop/euxinhong0012')"/><br></td>
+				<br>
+		</div> 			
 		</div>
-		</div>
-		<br>
 		<canvas></canvas>
 
 		<footer>
